@@ -4,3 +4,7 @@ one:
   email: luizbinario@mplace.com
   # password_digest: hashed_password
   password_digest: <%= BCrypt::Password.create('g00d_pa$$') %>
+
+two:
+  email: jackjose@mplace.com
+  password_digest: <%= BCrypt::Password.create('g00d_pa$$') %>

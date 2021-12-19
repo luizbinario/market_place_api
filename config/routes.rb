@@ -8,7 +8,8 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users, only: [:show, :create, :update, :destroy]
       resources :tokens, only: [:create]
-      resources :products, only: [:index, :show]
+      resources :products, only: [:index, :show, :create, :update, :destroy]
+      # ou - resources :products
     end
   end
 end
