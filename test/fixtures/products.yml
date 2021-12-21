@@ -1,13 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  price: 9.99
+  title: Controller PS4 HORI Wired
+  price: 324.99
   published: false
   user: one
 
 two:
-  title: MyString
-  price: 9.99
+  title: Book - A Filosofia e o espelho da natureza
+  price: 200.99
+  published: false
+  user: two
+
+another_controller:
+  title: PS4 Nacon wired controller
+  price: 129.99
   published: false
   user: two
