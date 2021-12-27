@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       resources :tokens, only: [:create]
       resources :products, only: [:index, :show, :create, :update, :destroy]
       # ou - resources :products
-      resources :orders, only: [:index, :show]
+      resources :orders, only: [:index, :show, :create]
     end
   end
 end
