@@ -5,15 +5,18 @@ one:
   price: 324.99
   published: false
   user: one
+  quantity: 5
 
 two:
   title: Book - A Filosofia e o espelho da natureza
   price: 200.99
   published: false
   user: two
+  quantity: 5
 
 another_controller:
   title: PS4 Nacon wired controller
   price: 129.99
   published: false
   user: two
+  quantity: 5
